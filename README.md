@@ -1,7 +1,6 @@
 # PDE–ML Framework for ICF Capsule Heat Transport
 
-This repository implements a computational testbed for modeling laser-driven heat transport in inertial confinement fusion (ICF) capsules.  
-It demonstrates an end-to-end workflow that combines physics-based models, uncertainty quantification, and machine learning surrogates.
+This repository implements a computational testbed for modeling laser-driven heat transport in inertial confinement fusion (ICF) capsules. It demonstrates an end-to-end workflow that combines physics-based models, uncertainty quantification, and machine learning surrogates.
 
 ## Features
 1. **PDE Solver in C (`ICF-PDE.c`)**
@@ -42,4 +41,5 @@ It demonstrates an end-to-end workflow that combines physics-based models, uncer
    ```bash
    python ICF-NN.py
 
-
+## Note:
+The physics solver produces sample data of no relevance to actual ICF simulations. The physics model is a demonstrator only and should not be used for design studies.
